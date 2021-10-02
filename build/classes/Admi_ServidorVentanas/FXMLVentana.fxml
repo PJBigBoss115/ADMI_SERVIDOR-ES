@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" onMouseMoved="#mostrarReport" prefHeight="444.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admi_ServidorEs.FXMLVentanaController">
+    <children>
+      <Label layoutX="96.0" layoutY="51.0" text="Control de Estacionamientos" />
+      <Label layoutX="148.0" layoutY="81.0" text="Reportes" />
+        <Button fx:id="buttonIngresos" layoutX="88.0" layoutY="131.0" onAction="#pedirReporteIngresos" prefWidth="167.0" text="Ingresos Actuales Total" />
+      <Button fx:id="buttonEstado" layoutX="88.0" layoutY="197.0" onAction="#pedirReporteEstado" prefHeight="25.0" prefWidth="167.0" text="Estado del Estacionamiento" />
+      <TextField fx:id="report_1" editable="false" layoutX="22.0" layoutY="271.0" prefHeight="92.0" prefWidth="299.0" />
+    </children>
+</AnchorPane>
