@@ -39,7 +39,6 @@ public class FXMLVentanaController implements Initializable {
     @FXML
     private void pedirReporteIngresos(ActionEvent event) {
         try {
-            System.out.println("ButtonIngresos");
             
             Socket pideReporte = new Socket("192.168.1.41", 9999);
             
@@ -56,7 +55,6 @@ public class FXMLVentanaController implements Initializable {
     @FXML
     private void pedirReporteEstado(ActionEvent event) {
         try {
-            System.out.println("ButtonEstado");
             
             Socket pideReporte = new Socket("192.168.1.41", 9999);
             
